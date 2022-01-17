@@ -91,7 +91,7 @@ p {
 /* ---------------------------------------------------------------- */
 @media only screen and (max-width: 575.98px) {
   h3, .h3 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
   }
   h4, .h4 {
     font-size: 1.8rem;
@@ -2160,12 +2160,16 @@ img.mywechat2{
   color: #fff;
 }
 .product-item .text {
-  padding: 30px;
-  background: #2b2c3e;
+  padding: 10px 10px;
+  background: #4f38d6;
+  
 }
 .product-item .text .rating {
-  line-height: 0;
+  text-align:left ;
+  /* line-height: 0; */
   margin-top: 10px;
+  font-size: 1.2rem;
+  color: #fff;
 }
 .product-item .text .rating i {
   font-size: 12px;
@@ -2179,6 +2183,10 @@ img.mywechat2{
 
 .product-item .text h3 {
   color: #fff;
+  text-align:left ;
+  margin-top: 10px;
+  color: #f4ea2a;
+  
 }
 
 .product-item:hover .btn-block a:hover {
@@ -3407,7 +3415,14 @@ body.rtl-mode .footer .copyright .footer-payment ul li:last-child {
 .demo-features-item .features-text h5 {
   font-size: 1.125rem;
 }
-
+.img-fluid{
+	
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+}
+.margin-width{
+	margin:0 0.9375rem ;
+}
 /* ------------------------------------------------------------- */
 /* Responsive Media Query (576px)
 /* ---------------------------------------------------------------- */
