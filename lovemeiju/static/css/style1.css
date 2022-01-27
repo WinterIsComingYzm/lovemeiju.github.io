@@ -145,13 +145,15 @@ p {
   bottom: 0;
   left: 50%;
   position: absolute;
-  background: #4f38d6;
+  /* background: #4f38d6; */
+  background: #007fff;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .section .section-heading h2 span {
-  color: #4f38d6;
+  /* color: #4f38d6; */
+  color: #007fff;
 }
 
 .section .section-heading h4 {
@@ -1281,7 +1283,8 @@ span.logo-normal{
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  background-color: #4f38d6;
+  /* background-color: #4f38d6; */
+  background-color: #007fff;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2137,7 +2140,7 @@ img.mywechat2{
 /* ---------------------------------------------------------------- */
 .product-item {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -webkit-box-shadow: 0 10px 15px rgba(43, 44, 62, 0.1);
@@ -2161,15 +2164,15 @@ img.mywechat2{
 }
 .product-item .text {
   padding: 10px 10px;
-  background: #4f38d6;
+  /* background: #4f38d6; */
   
 }
 .product-item .text .rating {
   text-align:left ;
   /* line-height: 0; */
   margin-top: 10px;
-  font-size: 1.2rem;
-  color: #fff;
+  font-size: 0.9rem;
+  color: #2e3135;
 }
 .product-item .text .rating i {
   font-size: 12px;
@@ -2182,10 +2185,20 @@ img.mywechat2{
 }
 
 .product-item .text h3 {
-  color: #fff;
-  text-align:left ;
+  font-weight: bolder;
+  text-align:center;
   margin-top: 10px;
-  color: #f4ea2a;
+  color: #007fff;
+  width: 80px;
+  line-height: 36px;
+  /* padding: 10px 15px; */
+  background: #f1f7ff;
+  border-radius: 1.875rem;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  
   
 }
 
@@ -3417,11 +3430,38 @@ body.rtl-mode .footer .copyright .footer-payment ul li:last-child {
 }
 .img-fluid{
 	
-	border-top-right-radius: 1rem;
-	border-top-left-radius: 1rem;
+	border-radius: 0.6rem;
+}
+.img-poster{
+	width: 100%;
+	box-shadow: 0 10px 15px rgb(43 44 62 / 10%);
 }
 .margin-width{
 	margin:0 0.9375rem ;
+}
+.product-item .img{
+	width: 30%;
+	padding: 15px 10px 15px 15px;
+	
+}
+.product-item .text{
+	width: 70%;
+	position: relative;
+}
+.product-item .rating.meiju-title{
+	font-weight:bolder;
+	font-size: 1.2rem;
+}
+.product-item .rating.meiju-ps{
+	color: #8a9aa9;
+}
+.rating.meiju-season span{
+	padding: 2px 3px;
+	background: #007fff;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 0.9rem;
+	margin: 0 6px;
 }
 /* ------------------------------------------------------------- */
 /* Responsive Media Query (576px)
