@@ -2165,12 +2165,10 @@ img.mywechat2{
 }
 .product-item .text {
   padding: 10px 10px;
-  /* background: #4f38d6; */
   
 }
 .product-item .text .rating {
   text-align:left ;
-  /* line-height: 0; */
   margin-top: 10px;
   font-size: 0.9rem;
   color: #2e3135;
@@ -2194,7 +2192,7 @@ img.mywechat2{
   line-height: 36px;
   background: #f1f7ff;
   border-radius: 1.875rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   position: absolute;
   top: 16px;
   right: 15px;
