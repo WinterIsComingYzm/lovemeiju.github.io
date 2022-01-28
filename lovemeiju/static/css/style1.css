@@ -2140,6 +2140,7 @@ img.mywechat2{
 /* ---------------------------------------------------------------- */
 .product-item {
   text-align: center;
+  border-radius: 4px;
   margin-bottom: 16px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -2191,15 +2192,12 @@ img.mywechat2{
   color: #007fff;
   width: 80px;
   line-height: 36px;
-  /* padding: 10px 15px; */
   background: #f1f7ff;
   border-radius: 1.875rem;
   font-size: 1.4rem;
   position: absolute;
-  top: 15px;
+  top: 74px;
   right: 15px;
-  
-  
 }
 
 .product-item:hover .btn-block a:hover {
