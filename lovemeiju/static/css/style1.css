@@ -2144,16 +2144,16 @@ img.mywechat2{
   margin-bottom: 16px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  -webkit-box-shadow: 0 10px 15px rgba(43, 44, 62, 0.1);
-          box-shadow: 0 10px 15px rgba(43, 44, 62, 0.1);
+  -webkit-box-shadow: 0 10px 15px rgba(241, 247, 255, 1);
+          box-shadow: 0 10px 15px rgba(241, 247, 255, 1);
 }
 .product-item .btn-block .primary-btn {
   display: block;
   width: 100%;
   border: none;
   background: #21212f;
-  -webkit-box-shadow: 0 10px 15px rgba(43, 44, 62, 0.1);
-          box-shadow: 0 10px 15px rgba(43, 44, 62, 0.1);
+ -webkit-box-shadow: 0 10px 15px rgba(241, 247, 255, 1);
+           box-shadow: 0 10px 15px rgba(241, 247, 255, 1);
 }
 .product-item .top {
   padding: 30px;
@@ -3430,7 +3430,8 @@ body.rtl-mode .footer .copyright .footer-payment ul li:last-child {
 }
 .img-poster{
 	width: 100%;
-	box-shadow: 0 10px 15px rgb(43 44 62 / 10%);
+	-webkit-box-shadow: 0 10px 15px rgba(241, 247, 255, 1);
+	          box-shadow: 0 10px 15px rgba(241, 247, 255, 1);
 }
 .margin-width{
 	margin:0 0.9375rem ;
