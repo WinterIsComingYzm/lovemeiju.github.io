@@ -1235,14 +1235,14 @@ span.logo-normal{
     display: none;
   }
   .header .main-menu .navbar-nav .nav-link.active {
-    background: #0fb6a6;
-    color: #fff !important;
-    border-color: #0fb6a6;
+    background: #ffff00;
+    color: #000 !important;
+    border-color: #ffff00;
   }
   .header .main-menu .navbar-nav .nav-link:not(.active):hover {
-    background: #0fb6a6;
+    background: #ffff00;
     color: #fff !important;
-    border-color: #0fb6a6;
+    border-color: #ffff00;
   }
   .navbar-btn-resp {
     display: none !important;
